@@ -1,6 +1,7 @@
 {
   "name": "VaultBoyDashboard",
   "scripts": {
+      "postdeploy": "npm start"
   },
   "env": {
   },

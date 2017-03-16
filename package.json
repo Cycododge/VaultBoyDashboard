@@ -2,9 +2,8 @@
   "name": "vaultboydashboard",
   "version": "1.0.0",
   "description": "##### Demo http://cdn.rawgit.com/Cycododge/VaultBoyDashboard/master/wasteland-walker.html",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "http-server ./ -p ${PORT:=5000} -c-1"
   },
   "repository": {
     "type": "git",
@@ -16,7 +15,7 @@
     "url": "https://github.com/Cycododge/VaultBoyDashboard/issues"
   },
   "homepage": "https://github.com/Cycododge/VaultBoyDashboard#readme",
-  "devDependencies": {
-    "node-static": "^0.7.9"
+  "dependencies": {
+    "http-server": "^0.9.0"
   }
 }
